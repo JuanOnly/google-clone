@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .btn {
+        @apply bg-[#f8f9fa];
+    }
+    .link {
+        @apply hover:underline cursor-pointer;
+    }
+
+}

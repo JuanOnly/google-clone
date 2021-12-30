@@ -1,0 +1,27 @@
+import HeaderOption from "./HeaderOption";
+import {
+  DotsVerticalIcon,
+  MapIcon,
+  NewIcon,
+  PhotographIcon,
+  PlayIcon,
+  SeachIcon,
+} from "@heroicons/react/outline";
+
+function HeaderOptions() {
+  return (
+    <div>
+      {/* Left */}
+      <div className="flex space-x-6">
+        <HeaderOption />
+      </div>
+      {/* Right */}
+      <div className="flex space-x-4">
+        <p className="link">Setting</p>
+        <p className="link">Tools</p>
+      </div>
+    </div>
+  );
+}
+
+export default HeaderOptions;
